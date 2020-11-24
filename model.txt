@@ -1,0 +1,7 @@
+288 instances of class ear with average precision: 0.9285
+Inference time for 250 images: 0.3014
+mAP using the weighted average of precisions among classes: 0.9285
+mAP: 0.9285
+
+
+Average IoU is 73.0 %. Maximum IoU: 98.63 %.

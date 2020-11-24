@@ -16,6 +16,7 @@ Exported environment: environment.yml
 ### Instructions
 
  * Install all dependencies from the `environment.yml` file (I did not use Jupyter Notebook due to issues with incompatibility of Tensorflow and Jupyter Notebook).
+ * Download pretrained model (https://drive.google.com/drive/folders/1foIOYDwGeLxkyg1Em3kbR3_PEqtR7Kej?usp=sharing) and put it into main file.
  * (optional) In a case you want to train model on your own dataset:
       + train model: `python kerasretinanet/keras_retinanet/bin/train.py --freeze-backbone --random-transform --weights snapshots/_pretrained_model.h5 --batch-size 8 --steps 500 --epochs 5 csv annotations.csv classes.csv`
       + convert model: `python kerasretinanet/keras_retinanet/bin/convert_model.py snapshots/resnet50_csv_10.h5 snapshots/inference/resnet50_csv_10.h5`
